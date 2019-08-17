@@ -1,0 +1,33 @@
+{
+  "name": "npm-typescript-template",
+  "version": "1.0.0",
+  "description": "typescript包模板",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json './bin/index.ts'",
+    "build": "tsc -p .",
+    "start": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register bin/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouzenghu/npm-typescript-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zouzenghu/npm-typescript-template/issues"
+  },
+  "homepage": "https://github.com/zouzenghu/npm-typescript-template#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3",
+    "typings": "^2.1.1"
+  }
+}
