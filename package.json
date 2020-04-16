@@ -25,7 +25,7 @@
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
     "http-proxy-agent": "^2.1.0",
-    "https-proxy-agent": "^2.2.0",
+    "https-proxy-agent": "^2.2.3",
     "mocha": "^6.2.0",
     "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
